@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-clerk-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "ngrok": "ngrok http --authtoken=$NGROK_AUTH_TOKEN --domain=$NGROK_DOMAIN 3000"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^5.5.2",
+    "next": "^14.2.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.5",
+    "@types/react": "18.3.5",
+    "localtunnel": "^2.0.2",
+    "ngrok": "^5.0.0-beta.2",
+    "typescript": "5.6.2"
+  }
+}
